@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_main_print_image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="打印图片" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/tv_main_bluetooth"
+            android:layout_toLeftOf="@+id/tv_main_bluetooth"
+            android:gravity="center_vertical"
+            android:text="Current Bluetooth：" />
+
+        <TextView
+            android:id="@+id/tv_main_bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/no_connect_blue_tooth" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pdfview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical" />
+
+</LinearLayout>

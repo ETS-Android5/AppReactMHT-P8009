@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mht.myxdemo" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+7        android:targetSdkVersion="28" />
+8
+9    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+9-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\debug\AndroidManifest.xml:4:1-73
+9-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\debug\AndroidManifest.xml:4:18-71
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:6:5-67
+10-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:7:5-68
+11-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:7:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:8:5-74
+12-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:8:22-71
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:9:5-97
+13-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+14-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:10:5-11:63
+14-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:10:22-81
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:13:5-80
+15-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:13:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:14:5-78
+16-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:14:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.99.0] C:\Users\arnau\.gradle\caches\transforms-3\6731c0e8e3fac240082209a201cbde85\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.99.0] C:\Users\arnau\.gradle\caches\transforms-3\6731c0e8e3fac240082209a201cbde85\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+18
+19    <application
+19-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:16:5-55:19
+20        android:name="com.mht.myxdemo.MainApplication"
+20-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:18:9-40
+21        android:allowBackup="true"
+21-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:17:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] C:\Users\arnau\.gradle\caches\transforms-3\8091e88265a2bdec2561f7dc53bbc273\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:19:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:20:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:21:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:22:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+29-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:23:9-65
+30        android:usesCleartextTraffic="true" >
+30-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:24:9-44
+31        <activity android:name="com.mht.myxdemo.MainActivity" >
+31-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:26:9-32:20
+31-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:26:19-47
+32            <intent-filter>
+32-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:27:13-31:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:28:17-69
+33-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:28:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:30:17-77
+35-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:30:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.mht.myxdemo.activity.PrincipalActivity" >
+38-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:34:9-39:20
+38-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:34:19-61
+39            <intent-filter>
+39-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:27:13-31:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:28:17-69
+40-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:28:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:30:17-77
+42-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:30:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:40:9-42:20
+46            android:name="com.mht.myxdemo.activity.PrintfBlueListActivity"
+46-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:40:19-66
+47            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+47-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:41:19-78
+48        </activity>
+49        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+49-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:44:9-86
+49-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:44:19-83
+50
+51        <receiver
+51-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:46:9-53:20
+52            android:name="com.mht.myxdemo.receiver.NameOfBroadcastReceiverClass"
+52-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:47:13-66
+53            android:enabled="true" >
+53-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:48:13-35
+54            <intent-filter>
+54-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:49:13-52:29
+55                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" /> <!-- 蓝牙适配器状态改变 -->
+55-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:50:17-96
+55-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:50:25-86
+56                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" /> <!-- 连接已经断开 -->
+56-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:51:17-98
+56-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactImprimante\android\app\src\main\AndroidManifest.xml:51:25-88
+57            </intent-filter>
+58        </receiver>
+59    </application>
+60
+61</manifest>
